@@ -17,10 +17,7 @@ def int_to_roman(num)
     900 => "CM",
     1000 => "M"
   }
-
   roman_string = ''
-
-  puts "Input number:  #{num}"
 
   while num > 0 do
     case num
