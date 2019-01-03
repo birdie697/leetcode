@@ -16,10 +16,8 @@ def judge_circle(moves)
     i += 1
   end
   if u_d_moves == 0 and l_r_moves == 0
-    puts "true"
     return true
   else
-    puts "false"
     return false
   end
 end
